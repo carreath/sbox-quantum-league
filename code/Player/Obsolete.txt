@@ -1,0 +1,28 @@
+﻿These files were copied for convenience
+
+
+Original Message:
+
+Files in this folder shouldn't really be in the base addon.
+
+
+# Facepunch
+	
+	We shouldn't create more reliance on the files being here. We should be able to delete
+	them without too much trouble in the future.
+
+
+# Developers
+
+	I would encourage game creators to reduce their reliance on these files. Maybe copy and paste
+	them into your own game and use them from there. This will be better in the long run because
+	we won't be able to break your code by changing/deleting/moving them.
+
+
+# Plan
+
+	1. Put them in an Obsolete folder
+	2. Create game addon templates that provide own version of them
+	3. Put them in a different namespace (Sandbox.Obsolete)
+	4. Mark them as [Obsolete]
+	5. Remove them completely
